@@ -1,0 +1,30 @@
+.story {
+  color: #F0E68C;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.story-inner {
+  @include container;
+}
+
+.story-title {
+  @include title;
+}
+
+.story-text {
+  margin: 0;
+  padding-top: 30px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  align-items: center;
+  color: #FF8C00;
+  text-shadow: 1px 1px 2px #060D10;
+}

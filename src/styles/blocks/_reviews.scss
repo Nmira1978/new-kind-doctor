@@ -1,0 +1,38 @@
+.reviews {
+  padding-top: 100px;
+}
+
+.reviews-inner {
+  @include container;
+}
+
+.reviews-title {
+  @include title;
+}
+
+.reviews-text {
+  margin: 0;
+  padding-top: 30px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  align-items: center;
+  color: #FF8C00;
+  text-shadow: 1px 1px 2px #060D10;
+
+  @media (max-width: $tablet-max) {
+    padding-bottom: 180px;
+    font-size: 54px;
+    line-height: 74px;
+    text-align: center;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding-bottom: 110px;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Добрый доктор</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-wrap">
+        <img src="./images/логотип_png_Монтажная_область_1_копия_2.png" class="header-logo">
+
+        <div class="menu j-menu">
+          <ul>
+            <li>
+              <a href="index.html">Главная</a>
+            </li>
+            <li>
+              <a href="prise.html">Прайс</a>
+            </li>
+            <li>
+              <a href="faq.html" class="active">FAQ</a>
+            </li>
+            <li>
+              <a href="reviews.html">Отзывы</a>
+            </li>
+            <li>
+              <a href="contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="burger j-burger">menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="faq">
+      <div class="faq-inner">
+        <h2 class="faq-title">Ответы на вопросы</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question j-accordion-btnn">Вопрос-1.
+              <span class="j-faq-icon"></span>
+            </button>
+            <div class="faq-answear">
+              <p>ответ-1</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question j-accordion-btnn">Вопрос-2.
+              <span class="j-faq-icon"></span>
+            </button>
+            <div class="faq-answear">
+              <p>ответ-2</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question j-accordion-btnn">Вопрос-3.
+              <span class="j-faq-icon"></span>
+            </button>
+            <div class="faq-answear">
+              <p>ответ-3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="contacts-inner">
+        <h2 class="contacts-title">Контакты</h2>
+
+        <ul class="tabs">
+          <li class="tabs-item">
+            <p href="#" class="tabs-link active j-tabs-link">г. Санкт-Петербург, пос. Металлострой</p>
+          </li>
+        </ul>
+
+        <div class="contacts-item active tabs-content">
+          <div class="contacts-info">
+            <p class="contacts-text">ул. Садовая, д. 17, корп. 2,</p>
+            <p class="contacts-text1">Тел: +7(812) 464-64-06</p>
+            <p class="contacts-text1">Тел: +7(981) 137-50-50</p>
+            <p class="contacts-text2">Пн-Пт с 10-00 до 21-00</p>
+            <p class="contacts-text2">Сб-Вс с 10-00 до 20-00</p>
+            <p class="contacts-text3"><a href="mailto:dobdoc@inbox.ru">dobdoc@inbox.ru</a></p>
+            <p class="contacts-text3"><a href="https://vk.com/dobryu_doctor">группа в VK</a></p>
+          </div>
+
+          <div class="contacts-map">
+            <div style="position:relative;overflow:hidden;"><iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab95b7c24da379fdb84732457a27bf0f45a4c1c85ee0b3e1d60ecde0ba533adcd&amp;source=constructor"
+                width="100%" height="420" frameborder="1" style="border: 0;"></iframe></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-wrap">
+        <div class="footer-phone">
+          <a href="tel:+79811375050" class="header-phone">+7(812)464-64-06</a><br>
+          <a href="tel:+78124646406" class="header-phone">+7(981)137-50-50</a>
+        </div>
+        <div class="footer-copyright">© 2014-2022 ветеринарная клиника "Добрый Доктор"</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="scripts/slick.min.js"></script>
+  <script src="scripts/script.js"></script>
+
+</body>
+
+</html>

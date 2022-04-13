@@ -1,28 +1,53 @@
 .promo {
-  padding: 50px 0;
-  background-color: lightsteelblue;
-  border-radius: 10px;
+    text-align: center;
+    background-image: url(../images/milye-doktor-shhenok-labradora.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.promo-inner {
-  margin: 0 auto;
-  width: 1024px;
+.promo-fade {
+  background-color: rgba(51, 51, 51, 0.1);
+  padding-top: 200px;
+  padding-bottom: 214px;
 
-  @media (max-width: 1279px) {
-    width: auto;
-    max-width: 1024px;
+  @media (max-width: $mobile-max) {
+    padding-top: 110px;
+    padding-bottom: 80px;
   }
 }
 
-.promo-ttl {
-  font-size: $h1-fz-desktop;
-  font-weight: $h1-fw;
 
-  @media (max-width: 1279px) {
-    font-size: $h1-fz-tablet;
-  }
-
-  @media (max-width: 669px) {
-    font-size: $h1-fz-mobile;
-  }
+  .promo-inner {
+  @include container;
 }
+
+  .promo-title {
+    @include title;
+  }
+
+  .promo-text {
+    margin: 0;
+    padding-top: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    color: #FF8C00;
+    text-shadow: 1px 1px 2px #060D10;
+
+    @media (max-width: $tablet-max) {
+      padding-bottom: 180px;
+      font-size: 54px;
+      line-height: 74px;
+    }
+
+    @media (max-width: $mobile-max) {
+      padding-bottom: 110px;
+      font-size: 32px;
+      line-height: 44px;
+    }
+  }
+

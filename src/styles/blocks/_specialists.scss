@@ -1,0 +1,29 @@
+.specialists {
+  background-color: #FBF2DA;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.specialists-inner {
+  @include container;
+}
+
+
+.specialists-title {
+  @include title;
+}
+
+.specialists-content {
+  display: flex;
+  align-items: center;
+}
+
+.specialists-slider{
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+  padding-top: 80px;
+
+}
+
+

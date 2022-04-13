@@ -1,0 +1,16 @@
+.burger-menu {
+  display: none;
+
+  @media (max-width: $mobile-max) {
+    display: block;
+    width: 55px;
+    height: 40px;
+    margin-left: 35px;
+    font-size: 0;
+
+    background-color: rgba(236, 139, 11, 0.904);
+    background-image: url('./images/menu-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
