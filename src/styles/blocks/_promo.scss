@@ -17,13 +17,17 @@
   }
 }
 
-
   .promo-inner {
   @include container;
 }
 
   .promo-title {
     @include title;
+    padding-top: 280px;
+
+    @media (max-width: $mobile-max) {
+      padding-top: 210px;
+    }
   }
 
   .promo-text {
@@ -32,22 +36,23 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 44px;
+    line-height: 74px;
     align-items: center;
     color: #FF8C00;
     text-shadow: 1px 1px 2px #060D10;
 
     @media (max-width: $tablet-max) {
-      padding-bottom: 180px;
-      font-size: 54px;
-      line-height: 74px;
+      font-size: 32px;
+      line-height: 44px;
+      padding-bottom: 30px;
+      
     }
 
     @media (max-width: $mobile-max) {
-      padding-bottom: 110px;
       font-size: 32px;
       line-height: 44px;
+      padding-bottom: 30px;
     }
   }
 

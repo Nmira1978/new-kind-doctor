@@ -2,11 +2,12 @@
   @media (min-width: $desktop) {
     display: block !important;
   }
+
   @media (max-width: $mobile-max) {
     position: absolute;
-    top: 100%;
-    left: 0;
     display: none;
+    top: 130px;
+    left: 0;
     width: 100%;
     border-top: 1px solid $color-accent;
     background-color: $color-accent;
@@ -18,7 +19,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  font-size: 24px;
+  font-size: 25px;
   @media (max-width: $tablet-max) {
     justify-content: center;
   }
@@ -42,16 +43,12 @@
  a {
   font-family:'Raleway';
   font-style: normal;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 24px;
   color: #800000;
   text-shadow: 1px 1px 2px #060D10;
   text-decoration: none;
   padding-bottom: 10px;
-
-   @media (max-width: $mobile-max) {
-      display: block;
-     }
  }
 
  a.active {
