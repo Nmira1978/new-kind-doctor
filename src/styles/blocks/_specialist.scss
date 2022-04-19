@@ -1,31 +1,8 @@
 .specialist {
-  display: flex;
-  align-items: center;
-  }
+    display: flex;
+    align-items: center;
 
-  .specialist-photo-wrap {
-  margin-left: 24px;
-  margin-right: 24px;
+  @media (max-width: $mobile-max) {
+    display: block;
   }
-
-  .specialist-photo {
-  width: 254px;
-  height: 254px;
-  border-radius: 50%;
-  }
-
-  .specialist-name {
-  font-size: 38px;
-  line-height: 55px;
-  margin: 0;
-  color: #FF8C00;
-  text-shadow: 1px 1px 2px #060D10;
-  }
-
-  .specialist-quote {
-  margin: 0;
-  padding-top: 40px;
-  font-size: 34px;
-  line-height: 45px;
-  color: #FF8C00;
-  }
+}

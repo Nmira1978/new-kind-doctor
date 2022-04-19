@@ -55,10 +55,15 @@ $(document).ready(function () {
     prevBtnn = $(this)[0];
   });
 
+   
+  // Slider
+
+  $('.j-specialists-content').slick();
 
 
 
 
 
+  
   
   });

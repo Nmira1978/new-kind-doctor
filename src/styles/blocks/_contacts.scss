@@ -1,5 +1,4 @@
 .contacts {
-  padding-top: 100px;
   padding-bottom: 20px;
 }
 
@@ -9,6 +8,7 @@
 
 .contacts-title {
   @include title;
+  
 }
 
 .contacts-item {
@@ -21,6 +21,7 @@
     color: #FF8C00;
     text-shadow: 1px 1px 2px #060d10;
     display: none;
+  
 
   &.active {
     display: flex;
@@ -35,6 +36,7 @@
 .contacts-info {
   margin-bottom: 10px;
   flex-basis: 33.33%;
+  margin-right: 5px;
 }
 
 .contacts-text, .contacts-text1, .contacts-text2, .contacts-text3 {
@@ -54,6 +56,7 @@
   @media (max-width: $tablet-max) {
     font-size: 18px;
     line-height: 25px;
+    text-align: center;
   }
 
   @media (max-width: $mobile-max) {
