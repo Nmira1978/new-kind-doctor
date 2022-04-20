@@ -4,13 +4,15 @@
   @media (max-width: $mobile-max) {
     display: block;
     width: 60px;
-    height: 45px;
+    height: 40px;
     margin-left: auto;
     font-size: 0;
-    background-color: rgba(236, 139, 11, 0.904);
-    background-image: url('../images/cil_hamburger-menu.svg');
+    border: none;
+    background-image: url('../images/menu-bg.png');
     background-repeat: no-repeat;
     background-position: center;
-    border:none;
+    background-size: cover;
+    background-color: #eb910c;
+
   }
 }

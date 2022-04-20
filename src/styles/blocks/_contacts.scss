@@ -8,6 +8,14 @@
 
 .contacts-title {
   @include title;
+
+  @media (max-width: $tablet-max) {
+    font-size: 45px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 40px; 
+  }
   
 }
 
@@ -19,7 +27,7 @@
     line-height: 29px;
     align-items: center;
     color: #FF8C00;
-    text-shadow: 1px 1px 2px #060d10;
+    text-shadow: 1px 1px 1px #313233;
     display: none;
   
 
@@ -39,14 +47,32 @@
   margin-right: 5px;
 }
 
-.contacts-text, .contacts-text1, .contacts-text2, .contacts-text3 {
+.contacts-txt {
+  font-size: 28px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #ff7300;
+  text-shadow: 1px 1px 1px #313233;
+
+  @media (max-width: $tablet-max) {
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 23px;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+
+
+.contacts-text, .contacts-text1, .contacts-text3, .contacts-text4 {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 24px;
   line-height: 33px;
-  color: #ff7300;
-  text-shadow: 1px 1px 2px #060d10;
-
   font-weight: normal;
 
   &:last-child {
@@ -72,9 +98,9 @@
   margin-bottom: 10px;
   font-size: 24px;
   line-height: 33px;
-  color: #ffee00;
-  text-shadow: 1px 1px 2px #060d10;
-
+  color: #800000;
+  
+  
   font-weight: normal;
 
   &:last-child {
@@ -99,9 +125,8 @@
   margin-bottom: 10px;
   font-size: 24px;
   line-height: 33px;
-  color: #FF8C00;
-  text-shadow: 1px 1px 2px #060d10;
-
+  color: #ff7300;
+  
   font-weight: normal;
 
   &:last-child {
@@ -121,23 +146,26 @@
   }
 }
 
-.contacts-text3 a {
+.contacts-text3 a, .contacts-text4 a {
   font-size: 24px;
   line-height: 33px;
   color: #1512d6;
-  text-shadow: 1px 1px 2px #060d10;
+  text-shadow: 1px 1px 1px #313233;
   text-decoration: none;
+  margin-left: 25px;
 
   @media (max-width: $tablet-max) {
     font-size: 18px;
     line-height: 25px;
+    margin-left: -35px;
   }
 
   @media (max-width: $mobile-max) {
     margin-bottom: 5px;
     font-size: 16px;
     line-height: 22px;
-    text-align: center;
+    margin-left: -5px;
+  
   }
 }
 
@@ -145,30 +173,13 @@
   flex-basis: 66.66%;
 }
 
-.tabs {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  list-style: 0;
-  padding-left: 0px;
 
-  @media (max-width: $mobile-max) {
-    justify-content: flex-start;
-    text-align: center;
-    // display: block;
-    // text-align: center;
-    // margin-bottom: 30px;
-  }
-}
-
-.tabs-item {
+.contacts-item {
   padding: 0 15px;
 
 
   @media (max-width: $tablet-max) {
-    padding: 0 15px;
+    padding: 0 10px;
     text-align: center;
   }
 
@@ -178,12 +189,18 @@
   }
 }
 
-.tabs-link {
-  font-size: 28px;
-  line-height: 24px;
-  font-weight: 400;
-  text-decoration: none;
-  color: #FF8C00;
-  text-shadow: 1px 1px 2px #060d10;
+.contacts-text3 {
+    background-image: url(../images/email.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 3px;
+}
 
+.contacts-text4 {
+  background-image: url(../images/icons8-вконтакте-48.png);
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-left: 1px;
 }

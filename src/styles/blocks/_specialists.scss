@@ -18,6 +18,14 @@
 
 .specialists-title {
   @include title;
+
+  @media (max-width: $tablet-max) {
+    font-size: 45px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 40px; 
+  }
 }
 
 .specialists-content {
@@ -72,14 +80,14 @@
 }
 
 .specialists-name {
-    font-size: 48px;
-    line-height: 65px;
+    font-size: 40px;
+    line-height: 50px;
     margin: 0;
     color: #FF8C00;
     text-shadow: 1px 1px 2px #060D10;
 
   @media (max-width: $tablet-max) {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 29px;
     
   }
@@ -97,7 +105,7 @@
     padding-top: 40px;
     font-size: 34px;
     line-height: 33px;
-    color: #FF8C00;
+    color: #ffee00;
     text-shadow: 1px 1px 2px #060D10;
 
   @media (max-width: $tablet-max) {

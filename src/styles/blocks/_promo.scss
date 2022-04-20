@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
 .promo-fade {
@@ -25,7 +26,12 @@
     @include title;
     padding-top: 280px;
 
+    @media (max-width: $tablet-max) {
+      font-size: 45px;
+    }
+  
     @media (max-width: $mobile-max) {
+      font-size: 40px; 
       padding-top: 210px;
     }
   }
