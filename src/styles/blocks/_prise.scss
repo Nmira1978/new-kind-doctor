@@ -1,13 +1,13 @@
 .prise {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: rgba(51, 51, 51, 0.1);
   @media (max-width: $tablet-max) {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 90px;
   }
   @media (max-width: $mobile-max) {
-    padding-top: 90px;
+    padding-top: 50px;
     padding-bottom: 90px;
   }
 }
@@ -19,6 +19,14 @@
 .prise-title {
   @include title;
 
+  @media (max-width: $tablet-max) {
+    font-size: 54px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 44px;
+  }
+
 }
 
 th {
@@ -27,13 +35,13 @@ th {
 }
 
 .prise-list {
-  margin-top: 50px;
+  margin-top: 30px;
   @media (max-width: $tablet-max) {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   @media (max-width: $mobile-max) {
-    margin-top: 52px;
+    margin-top: 20px;
   }
 }
 
@@ -48,10 +56,10 @@ th {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 25px 30px;
+  padding: 10px;
   font-family: 'Raleway';
   font-weight: 300;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 49px;
   text-align: left;
   background-color: rgb(255, 255, 255);
@@ -87,7 +95,6 @@ th {
   width: 30px;
   height: 30px;
   background-size: 100%;
-  margin-top: 10px;
 }
 }
 

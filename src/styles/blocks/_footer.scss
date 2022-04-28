@@ -5,13 +5,12 @@
   color: #800000;
   text-shadow: 1px 1px 2px #060d10;
   text-decoration: none;
+
   @media (max-width: $tablet-max) {
     padding: 0;
   }
 
   @media (max-width: $mobile-max) {
-    padding-top: 10px;
-    padding-bottom: 5px;
     text-align: center;
   }
 }
@@ -48,8 +47,8 @@
     display: block;
     display: flex;
     flex-direction: column;
+    font-size: 16px;
   }
-
 }
 
 .footer-phone {
@@ -69,7 +68,7 @@
   @media (max-width: $mobile-max) {
     display: block;
     margin: 0;
-    padding-top: 14px;
+    padding-top: 10px;
     padding-bottom: 15px;
   }
 
@@ -85,6 +84,7 @@
 
      @media (max-width: $mobile-max) {
         display: block;
+        font-size: 16px;
        }
    }
 }
