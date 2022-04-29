@@ -9,12 +9,16 @@
 
 .promo-fade {
   background-color: rgba(51, 51, 51, 0.1);
-  padding-top: 200px;
-  padding-bottom: 214px;
+  padding-top: 180px;
+  padding-bottom: 80px;
+
+  @media (max-width: $tablet-max) {
+    padding-top: 90px;
+  }
 
   @media (max-width: $mobile-max) {
-    padding-top: 110px;
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 10px;
   }
 }
 
@@ -28,10 +32,13 @@
 
     @media (max-width: $tablet-max) {
       font-size: 45px;
+      line-height: 35px;
+      padding-top: 210px;
     }
   
     @media (max-width: $mobile-max) {
-      font-size: 40px; 
+      font-size: 35px; 
+      line-height: 30px;
       padding-top: 210px;
     }
   }
@@ -49,15 +56,14 @@
    
    
     @media (max-width: $tablet-max) {
-      font-size: 32px;
-      line-height: 44px;
-      padding-bottom: 30px;
-      
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 30px;
     }
 
     @media (max-width: $mobile-max) {
-      font-size: 32px;
-      line-height: 44px;
+      font-size: 25px;
+      line-height: 30px;
       padding-bottom: 30px;
     }
   }

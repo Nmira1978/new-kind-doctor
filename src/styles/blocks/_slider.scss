@@ -23,7 +23,7 @@
     }
 
     @media (max-width: $mobile-max) {
-      margin-bottom: 50px;
+      margin-bottom: 40px;
     }
   }
   
@@ -35,9 +35,14 @@
     background-image: url('../images/стрелка\ влево.jpg');
     background-repeat: no-repeat;
     background-position: center;
-  
+
+
     @media (max-width: $tablet-max) {
       margin: 0;
+    }
+  
+    @media (max-width: $mobile-max) {
+      margin-bottom: 40px;
     }
   }
   
@@ -51,15 +56,12 @@
     height: 40px;
     border-radius: 50%;
     background-color: #fff;
-  
+
     @media (max-width: $tablet-max) {
       padding: 0 20px;
       width: 40px;
       height: 40px;
     }
 
-    @media (max-width: $mobile-max) {
-      margin-bottom: 50px;
-    }
   }
   

@@ -34,6 +34,10 @@
   &.active {
     display: flex;
 
+    @media (max-width: 767px) {
+      display: flex;
+    }
+
     @media (max-width: $mobile-max) {
     display: flex;
     flex-direction: column;
@@ -49,7 +53,6 @@
 
 .contacts-txt {
   font-size: 28px;
-  line-height: 24px;
   font-weight: 400;
   text-align: center;
   color: #ff7300;
@@ -58,6 +61,7 @@
   @media (max-width: $tablet-max) {
     padding: 0 15px;
     text-align: center;
+    line-height: 23px;
   }
 
   @media (max-width: $mobile-max) {
@@ -72,7 +76,7 @@
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 24px;
-  line-height: 33px;
+  line-height: 23px;
   font-weight: normal;
 
   &:last-child {
@@ -97,7 +101,7 @@
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 24px;
-  line-height: 33px;
+  line-height: 23px;
   color: #800000;
   
   
@@ -124,7 +128,7 @@
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 24px;
-  line-height: 33px;
+  line-height: 23px;
   color: #ff7300;
   
   font-weight: normal;
@@ -148,7 +152,7 @@
 
 .contacts-text3 a, .contacts-text4 a {
   font-size: 24px;
-  line-height: 33px;
+  line-height: 23px;
   color: #1512d6;
   text-shadow: 1px 1px 1px #313233;
   text-decoration: none;

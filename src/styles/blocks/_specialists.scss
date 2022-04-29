@@ -1,10 +1,10 @@
 .specialists {
-  padding-top: 60px;
-  padding-bottom: 130px;
+  padding-top: 30px;
+  padding-bottom: 80px;
 
   @media (max-width: $tablet-max) {
     padding-top: 60px;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
   }
 
   @media (max-width: $mobile-max) {
@@ -62,6 +62,10 @@
   }
 }
 
+.specialists-info {
+  display: flex;
+  flex-wrap: wrap;
+}
 .specialists-photo {
     width: 304px;
     height: 304px;
@@ -80,44 +84,41 @@
 }
 
 .specialists-name {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 30px;
     margin: 0;
     color: #FF8C00;
-    text-shadow: 1px 1px 2px #060D10;
+    text-shadow: 1px 0px 1px #060D10;
 
   @media (max-width: $tablet-max) {
-    font-size: 30px;
-    line-height: 29px;
-    
+    font-size: 23px;
+    line-height: 19px;
   }
 
   @media (max-width: $mobile-max) {
-    padding-top: $indent-gap;
-    text-align: center;
-    font-size: 24px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 15px;
+    padding-top: 5px;
   }
 }
 
 .specialists-quote {
     margin: 0;
-    padding-top: 40px;
-    font-size: 34px;
-    line-height: 33px;
-    color: #ffee00;
-    text-shadow: 1px 1px 2px #060D10;
+    padding-top: 30px;
+    font-size: 24px;
+    line-height: 25px;
+    color: #FF8C00;
+    text-shadow: 0px 1px 1px #060D10;
 
   @media (max-width: $tablet-max) {
     padding-top: 20px;
-    font-size: 24px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 20px;
   }
 
   @media (max-width: $mobile-max) {
     padding-top: 10px;
-    font-size: 22px;
-    line-height: 22px;
-    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
   }
 }

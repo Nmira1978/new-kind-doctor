@@ -56,33 +56,19 @@
       <div class="order-inner">
         <h2 class="order-title">Напишите нам</h2>
 
-        <form action="#" class="form">
-          <div class="form-field form-field-half">
-            <label for="name" class="form-label">Имя</label>
-            <input id="name" name="name" type="text" class="form-input">
-          </div>
-          <div class="form-field form-field-half">
-            <label for="phone" class="form-label">Телефон</label>
-            <input id="phone" name="phone" type="tel" class="form-input">
-          </div>
-          <div class="form-field">
-            <label for="message" class="form-label">Если у Вас возникли вопросы или предложения, напишите нам:</label>
-            <textarea name="message" id="message" class="form-textarea"></textarea>
-          </div>
-          <div class="form-field">
-            <input id="confirm" type="checkbox" class="form-checkbox">
-            <label for="confirm" class="form-label-checkbox">Даю согласие на обработку персональных данных с соответствии с политикой обработки персональных данных</label>
-          </div>
-          <div class="form-field">
-            <button class="btn btn-full" type="submit">Отправить сообщение</button>
-          </div>
+      <div class="form">
+        <form action="send.php" method="post" class="form-field">
+          Ваше имя <input type="text" name="first_name" required placeholder="Обязательное поле"> <br>
+          Email: <input type="text" name="email" required placeholder="Обязательное поле"><br>
+          Номер телефона: <input type="text" name="phone" required placeholder="Обязательное поле"><br>
+          Есть вопросы или предложения, напишите нам:<br><textarea rows="10" name="message" cols="50"></textarea><br>
+          <input class="btn" type="submit" name="submit" value="Отправить cообщение">
         </form>
+
+      </div>
+        
       </div>
     </section>
-
-
-
-
 
     <section class="contacts">
       <div class="contacts-inner">
